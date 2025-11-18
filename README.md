@@ -2,8 +2,10 @@
 Repository for the short course: Geometric Deep Learning for Virtual Humans, UNIVR, November 2025
 
 # Day One - Geometric Deep Learning
-### 🛠️ Prerequisites & Demos
 
+
+### 🛠️ Useful Links
+Setup: For the first day, we will use online tools and colab. A useful software is meshlab, but you can also count on the online JavaScript verison
 * **MeshLab:** A powerful tool for processing 3D meshes.
     * **Download & Install:** [MeshLab Website](https://www.meshlab.net/#download)
     * **Install-free Javascript Version:** [MeshLabJS](https://www.meshlabjs.net/)
@@ -24,7 +26,7 @@ Repository for the short course: Geometric Deep Learning for Virtual Humans, UNI
 ---
 ### 💻 Code & Environment Setup
 
-You need to set up a local environment (a GPU is **not required**).
+Setup: To run the scripts, you need to set up a local environment (a GPU is **not required**).
 
 ```
 conda create -n sav3d python=3.9
@@ -37,13 +39,13 @@ pip install git+https://github.com/mattloper/chumpy@9b045ff5d6588a24a0bab52c83f0
 pip install git+https://github.com/facebookresearch/pytorch3d.git@75ebeeaea0908c5527e7b1e305fbc7681382db47
 ```
 ### 🔑 Required Accounts & Data
-You need to create accounts on the following platforms to download necessary models and data:
+You need to create accounts on the following platforms to download the necessary models and data:
 - SMPLfy: https://smplify.is.tue.mpg.de/
 - AMASS: https://amass.is.tue.mpg.de/
  
 **Data Fetching:**
 After creating your accounts, run the scripts in the **`scripts`** folder to fetch the data needed for the course scripts. Both Linux Bash and Windows PowerShell versions are available.
-In case of troubles, just perform the instructions manually.
+In case of trouble, just perform the instructions manually.
 
 ----
 
