@@ -18,9 +18,9 @@ Setup: For the first day, we will use online tools and colab. A useful software 
 ### 📓 Course Notebooks (Colab)
 
 1.  **Visualize and Process:**
-    * [Colab Link](https://colab.research.google.com/drive/1-52YibyE4C0f9NJP3o1MUMCxohaUCKh0?usp=sharing)
+    * [Colab Link](https://github.com/riccardomarin/GeoHumanUNIVR/blob/main/UNIVR_Visualizations_.ipynb)
 2.  **Learning:**
-    * [Colab Link](https://colab.research.google.com/drive/1eZWc55Nti40DOu-zqRsGVL49AOs-C6m-?usp=sharing)
+    * [Colab Link](https://github.com/riccardomarin/GeoHumanUNIVR/blob/main/UniVR_PointNet.ipynb)
     
 # Day Two - Virtual Humans
 ---
@@ -29,8 +29,8 @@ Setup: For the first day, we will use online tools and colab. A useful software 
 Setup: To run the scripts, you need to set up a local environment (a GPU is **not required**).
 
 ```
-conda create -n sav3d python=3.9
-conda activate sav3d
+conda create -n geohuman python=3.9
+conda activate geohuman
 
 conda install -c conda-forge libstdcxx-ng
 pip install smplx[all] open3d plyfile moderngl-window==2.4.6 pyglet aitviewer robust_laplacian scikit-learn pandas
