@@ -11,6 +11,4 @@ dataset/spectral/*.off
 out_tpose.ply
 poses.tar.bz2
 test
-01_SMPL.py
-02_SMPL_Sequence.py
-03_SMPL_registration.py
+chumpy
